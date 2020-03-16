@@ -45,7 +45,7 @@ function buildMetadata(sample) {
 function createBubbleChart(sample) {
     // write code to create the BubbleChart
     console.log(`Entering ${arguments.callee.name} [ ${sample}]`)
-    d3.json("Data/samples.json").then((data) => {
+    d3.json("data/samples.json").then((data) => {
         //console.log(data)
 
         // filter sample values by id 
@@ -114,7 +114,7 @@ function createBarchart(sample) {
     console.log(sample)
     console.log(`Entering ${arguments.callee.name} [ ${sample}]`)
     // getting data from the json file
-    d3.json("Data/samples.json").then((data) => {
+    d3.json("data/samples.json").then((data) => {
         //console.log(data)
 
         // filter sample values by id 
