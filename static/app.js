@@ -19,7 +19,7 @@ function buildMetadata(sample) {
     // Reference to Panel element for sample metadata
     var washFreq = 0;
     // read the json file to get data
-    d3.json("../data/samples.json").then((data) => {
+    d3.json("data/samples.json").then((data) => {
         
 
         // get the metadata info for the demographic panel
